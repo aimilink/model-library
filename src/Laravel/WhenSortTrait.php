@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Laravel;
+namespace Aimilink\ModelLibrary\Laravel;
 
 /**
  * @method static|\Illuminate\Database\Eloquent\Builder whenSort(array $sortKeys = [])

@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require cblink/model-library -vvv
+$ composer require aimilink/model-library -vvv
 ```
 
 ## 配置
@@ -28,17 +28,17 @@ return [
 
 ## 使用
 
-Hyperf 引用 `Cblink\ModelLibrary\Hyperf` 同名下的类即可
+Hyperf 引用 `Aimilink\ModelLibrary\Hyperf` 同名下的类即可
 
 ### 分页示例
 #### 引用
-给 Model 引入 Cblink\ModelLibrary\Laravel\PageableTrait 
+给 Model 引入 Aimilink\ModelLibrary\Laravel\PageableTrait 
 
 ```php
 <?php
 
 namespace App;
-use Cblink\ModelLibrary\Laravel\PageableTrait;
+use Aimilink\ModelLibrary\Laravel\PageableTrait;
 
 class User extends Model 
 {
@@ -68,13 +68,13 @@ User::query()->simplePageOrAll();
 ### 搜索示例
 
 #### 引用
-给 Model 引入 Cblink\ModelLibrary\Laravel\SearchableTrait 
+给 Model 引入 Aimilink\ModelLibrary\Laravel\SearchableTrait 
 
 ```php
 <?php
 
 namespace App;
-use Cblink\ModelLibrary\Laravel\SearchableTrait;
+use Aimilink\ModelLibrary\Laravel\SearchableTrait;
 
 class User extends Model 
 {
@@ -303,8 +303,8 @@ User::where(function($query){
 
 You can contribute in one of three ways:
 
-1. File bug reports using the [issue tracker](https://github.com/cblink/laravel-model-simple-search/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/cblink/laravel-model-simple-search/issues).
+1. File bug reports using the [issue tracker](https://github.com/aimilink/laravel-model-simple-search/issues).
+2. Answer questions or fix bugs on the [issue tracker](https://github.com/aimilink/laravel-model-simple-search/issues).
 3. Contribute new features or update the wiki.
 
 _The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Laravel;
+namespace Aimilink\ModelLibrary\Laravel;
 
 /**
  * @method static|\Illuminate\Database\Eloquent\Builder whenWith(array $with = [], array $loaded = [])

@@ -1,10 +1,10 @@
 <?php
 
-namespace Cblink\ModelLibrary\Hyperf;
+namespace Aimilink\ModelLibrary\Hyperf;
 
 use Hyperf\Validation\Contract\Rule;
 
-class DateSearchRule extends \Cblink\ModelLibrary\Kernel\DateSearchRule implements Rule
+class DateSearchRule extends \Aimilink\ModelLibrary\Kernel\DateSearchRule implements Rule
 {
     /**
      * Determine if the validation rule passes.

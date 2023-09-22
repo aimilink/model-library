@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Hyperf;
+namespace Aimilink\ModelLibrary\Hyperf;
 
 use Hyperf\Utils\Arr;
 use Hyperf\Utils\Collection;
@@ -8,7 +8,7 @@ use InvalidArgumentException;
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Validation\Contract\ValidatorFactoryInterface;
 
-class SimpleSearch extends \Cblink\ModelLibrary\Kernel\SimpleSearch
+class SimpleSearch extends \Aimilink\ModelLibrary\Kernel\SimpleSearch
 {
     public function validate()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Hyperf;
+namespace Aimilink\ModelLibrary\Hyperf;
 
 /**
  * Class ModelSearchTrait

@@ -1,12 +1,12 @@
 <?php
 
-namespace Cblink\ModelLibrary\Laravel;
+namespace Aimilink\ModelLibrary\Laravel;
 
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Builder;
 
-class SimpleSearch extends \Cblink\ModelLibrary\Kernel\SimpleSearch
+class SimpleSearch extends \Aimilink\ModelLibrary\Kernel\SimpleSearch
 {
     public function validate()
     {

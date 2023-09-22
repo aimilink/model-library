@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Hyperf;
+namespace Aimilink\ModelLibrary\Hyperf;
 
 use Hyperf\HttpServer\Contract\RequestInterface;
 

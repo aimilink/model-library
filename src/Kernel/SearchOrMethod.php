@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Kernel;
+namespace Aimilink\ModelLibrary\Kernel;
 
 trait SearchOrMethod
 {

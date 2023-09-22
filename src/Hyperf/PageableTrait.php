@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\ModelLibrary\Hyperf;
+namespace Aimilink\ModelLibrary\Hyperf;
 
 use Hyperf\Paginator\Paginator;
 use Hyperf\HttpServer\Contract\RequestInterface;
@@ -78,7 +78,7 @@ trait PageableTrait
      * @param int $pageSize
      * @param int $pageLimit
      * @param int $maxPageSize
-     * @return LengthAwarePaginator|\Cblink\ModelLibrary\Laravel\PageableTrait[]
+     * @return LengthAwarePaginator|\Aimilink\ModelLibrary\Laravel\PageableTrait[]
      */
     public function scopeSimplePageOrAll($query, $column = ['*'], $pageSize = 10, $pageLimit = 500, int $maxPageSize = 150)
     {

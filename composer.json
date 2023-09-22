@@ -1,11 +1,11 @@
 {
-    "name": "cblink/model-library",
+    "name": "aimilink/model-library",
     "description": "Package description here.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Nick",
-            "email": "me@xieying.vip"
+            "name": "sunny5156",
+            "email": "sunny5156@qq.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cblink\\ModelLibrary\\": "src"
+            "Aimilink\\ModelLibrary\\": "src"
         },
         "files": [
             "src/helpers.php"
